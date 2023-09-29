@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-size: 14pt;
+    font-family: 'Agency FB', sans-serif;;
+  }
+
+.container {  
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1.1fr 1.1fr 1.1fr 0.7fr;
+    grid-template-rows: 0.4fr 1.3fr 1.3fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "header header header header"
+      "hall hall hall nav"
+      "hall hall hall nav";
+  }
+  
+  .container > div {
+    border: 1px solid black;
+  }
+    
+  .header { 
+    grid-area: header;
+    background-color: #00daff;
+    text-align: center;
+    padding: 0.5em;
+  }
+    
+  .nav { 
+    grid-area: nav;
+    background-color: #00daff;
+  }
+  
+  .sidenav {
+    width: 14em;
+    text-align: center;
+    overflow-x: hidden;
+    padding: 8px 0;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 24pt;
+    color: aliceblue;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: orange;
+  }
+
+  .hall { 
+    grid-area: hall; 
+}
+
+.container_hall {  
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "foto1 info1"
+      "info2 foto2"
+      "foto3 info3"
+      "info4 foto4"
+      "foto5 info5"
+      "info6 foto6"
+      "foto7 info7"
+      "info8 foto8"
+      "foto9 info9"
+      "info10 foto10"
+      "foto11 info11"
+      "info12 foto12"
+      "foto13 info13";
+  }
+  
+  .foto1 { grid-area: foto1; }
+  
+  .foto2 { grid-area: foto2; }
+  
+  .foto3 { grid-area: foto3; }
+  
+  .foto4 { grid-area: foto4; }
+  
+  .foto5 { grid-area: foto5; }
+  
+  .foto6 { grid-area: foto6; }
+  
+  .foto7 { grid-area: foto7; }
+  
+  .foto8 { grid-area: foto8; }
+  
+  .foto9 { grid-area: foto9; }
+  
+  .foto10 { grid-area: foto10; }
+  
+  .foto11 { grid-area: foto11; }
+  
+  .foto12 { grid-area: foto12; }
+  
+  .foto13 { grid-area: foto13; }
+  
+  .info1 { grid-area: info1; }
+  
+  .info2 { grid-area: info2; }
+  
+  .info3 { grid-area: info3; }
+  
+  .info4 { grid-area: info4; }
+  
+  .info5 { grid-area: info5; }
+  
+  .info6 { grid-area: info6; }
+  
+  .info7 { grid-area: info7; }
+  
+  .info8 { grid-area: info8; }
+  
+  .info9 { grid-area: info9; }
+  
+  .info10 { grid-area: info10; }
+  
+  .info11 { grid-area: info11; }
+  
+  .info12 { grid-area: info12; }
+  
+  .info13 { grid-area: info13; }
+  
+  
