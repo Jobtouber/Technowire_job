@@ -1,12 +1,8 @@
-/* alle pagina's */
-
 body {
   margin: 0;
-  font-size: 14pt;
   font-family: 'Agency FB', sans-serif;;
 }
 
-/* homepage */
 .container {  
   height: 100vh;
   display: grid;
@@ -20,9 +16,6 @@ body {
     "foto1 foto2 foto3 nav";
 }
 
-.container > div {
-  border: 1px solid black;
-}
   
 .header { 
   grid-area: header;
@@ -41,6 +34,7 @@ body {
   text-align: center;
   overflow-x: hidden;
   padding: 8px 0;
+  padding-left: 0.8em;
 }
 
 .sidenav a {
@@ -56,19 +50,49 @@ body {
 }
 
 .info { 
-  grid-area: info; 
+  grid-area: info;
+}
+
+.info h1{
+  font-size: 55pt;
+  margin: 0.1em;
+  padding-left: 0.6em;
+}
+
+.info p{
+  font-size: 14pt;
+  margin: 0.1em;
+  padding-left: 2.7em;
 }
   
 .foto1 { 
-  grid-area: foto1; }
+  grid-area: foto1; 
+}
+
+.foto1 img{
+  height: 19em;
+  margin: 1em;
+  padding-left: 2em;
+}
   
 .foto2 { 
   grid-area: foto2; 
 }
   
+.foto2 img{
+  height: 19em;
+  margin: 1em;
+  padding-left: 2em;
+}
+
 .foto3 { 
   grid-area: foto3; 
 }
   
-/* Hall of fame */
+.foto3 img{
+  height: 19em;
+  margin: 1em;
+  padding-left: 2em;
+}
+
 
