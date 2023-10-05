@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-size: 14pt;
+    font-family: 'Agency FB', sans-serif;;
+  }
+
+  .container { 
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1.1fr 1.1fr 1.1fr 0.7fr;
+    grid-template-rows: 0.4fr 1.3fr 1.3fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "header header header header"
+      "time time time nav"
+      "time time time nav";
+  }
+  
+  .container > div {
+    border: 1px solid black;
+  }
+    
+  .header { 
+    grid-area: header;
+    background-color: #00daff;
+    text-align: center;
+    padding: 0.5em;
+  }
+    
+  .nav { 
+    grid-area: nav;
+    background-color: #00daff;
+  }
+  
+  .sidenav {
+    width: 14em;
+    text-align: center;
+    overflow-x: hidden;
+    padding: 0.5em 0;
+  }
+  
+  .sidenav a {
+    padding: 0.3em 0.7em 0.3em 1em;
+    text-decoration: none;
+    font-size: 24pt;
+    color: aliceblue;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: orange;
+  }
+  
+  .time { 
+    grid-area: time;
+    overflow-y: scroll; 
+    background-color: black;
+  }
+
+
