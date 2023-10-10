@@ -154,7 +154,7 @@ body {
   align-items: center;
   display: flex;
   justify-content: center;
-  z-index: 777;
+  z-index: 5;
 }
 
 .step-line {
@@ -281,6 +281,7 @@ label.menu-button-container {
     display: flex;
   }
   .menu {
+    z-index: 6;
     position: absolute;
     top: 16px;
     margin-top: 50px;
