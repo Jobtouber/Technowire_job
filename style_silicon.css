@@ -52,6 +52,15 @@ body {
     padding: 1em;
   }
 
+  .time::-webkit-scrollbar{
+    display: none;
+  }
+
+  .time {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
   #title{
     text-align: center;
     font-size: 35pt;

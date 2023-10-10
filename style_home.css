@@ -95,15 +95,16 @@ body {
 @media (max-width: 1080px) {
   .container{
   display: grid;
+  overflow: hidden;
   width: 100vw;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.1fr 1fr 1fr;
+  grid-template-rows: 0.1fr 1fr 1fr ;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
     "header header header"
     "info info info"
-    "info info info";
+    "foto1 foto2 foto3";
   }
 
   .nav{
@@ -121,20 +122,38 @@ body {
   }
 
   .info p{
-    padding: 0;
+    padding: 0.5em;
     text-align: center;
   }
 
+  .foto1 img{
+    height: 6em;
+    margin: 0;
+    padding: 0;
+  }
+
   .foto1{
-    display: none;
+    text-align: center;
+  }
+
+  .foto2 img{
+    height: 6em;
+    margin: 0;
+    padding: 0;
   }
 
   .foto2{
-    display: none;
+    text-align: center;
+  }
+
+  .foto3 img{
+    height: 6em;
+    margin: 0;
+    padding: 0;
   }
 
   .foto3{
-    display: none;
+    text-align: center;
   }
 }
 

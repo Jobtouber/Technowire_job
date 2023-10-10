@@ -52,6 +52,15 @@ body {
   overflow-y: scroll;
 }
 
+.time::-webkit-scrollbar{
+  display: none;
+}
+
+.time {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 #title{
   text-align: center;
   font-size: 35pt;
