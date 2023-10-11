@@ -23,6 +23,14 @@ body {
     text-align: center;
     padding: 0.5em;
   }
+
+  .header img{
+    height: 3.5em;
+  }
+
+  .content img{
+    height: 10em;
+  }
     
   .nav { 
     grid-area: nav;
