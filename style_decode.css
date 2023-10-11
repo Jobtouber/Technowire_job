@@ -166,7 +166,7 @@ body {
   flex-shrink: 0;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1000px) {
   .steps::after {
     left: 32px;
   }
@@ -181,7 +181,7 @@ body {
   }
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1000px) {
   .grid{
   display: grid;
   width: 100vw;
@@ -204,6 +204,9 @@ body {
     float: left;
   }
 
+  .step-line{
+    flex-shrink: 0.1;
+  }
 }
 
 li{
@@ -276,7 +279,7 @@ label.menu-button-container {
   transform: rotate(-405deg);
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1000px) {
   .menu-button-container {
     display: flex;
   }

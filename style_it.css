@@ -317,7 +317,7 @@ body {
   padding: 1em;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1000px) {
   .container {
     display: grid;
     width: 100vw;
@@ -505,7 +505,7 @@ label.menu-button-container {
   transform: rotate(-405deg);
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1000px) {
   .menu-button-container {
     display: flex;
   }

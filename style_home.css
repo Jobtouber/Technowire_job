@@ -64,35 +64,39 @@ body {
   
 .foto1 { 
   grid-area: foto1; 
+  text-align: center;
+
 }
 
 .foto1 img{
-  height: 19em;
-  margin: 1em;
-  padding-left: 2em;
+  height: auto;
+  width: 22vw;
 }
   
 .foto2 { 
   grid-area: foto2; 
+  text-align: center;
 }
   
 .foto2 img{
-  height: 19em;
-  margin: 1em;
-  padding-left: 2em;
+  height: auto;
+  width: 22vw;
+
 }
 
 .foto3 { 
   grid-area: foto3; 
+  text-align: center;
 }
   
 .foto3 img{
-  height: 19em;
-  margin: 1em;
-  padding-left: 2em;
+  height: auto;
+  width: 22vw;
 }
 
-@media (max-width: 1080px) {
+
+
+@media (max-width: 1000px) {
   .container{
   display: grid;
   overflow: hidden;
@@ -126,30 +130,12 @@ body {
     text-align: center;
   }
 
-  .foto1 img{
-    height: 6em;
-    margin: 0;
-    padding: 0;
-  }
-
   .foto1{
     text-align: center;
   }
 
-  .foto2 img{
-    height: 6em;
-    margin: 0;
-    padding: 0;
-  }
-
   .foto2{
     text-align: center;
-  }
-
-  .foto3 img{
-    height: 6em;
-    margin: 0;
-    padding: 0;
   }
 
   .foto3{
@@ -227,7 +213,7 @@ label.menu-button-container {
   transform: rotate(-405deg);
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1000px) {
   .menu-button-container {
     display: flex;
   }
