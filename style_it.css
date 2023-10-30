@@ -342,7 +342,6 @@ body {
 
   .hall{
     grid-area: hall;
-    width: 100vw;
     overflow-y: scroll;
     display: grid;
     grid-template-columns: 1fr;
